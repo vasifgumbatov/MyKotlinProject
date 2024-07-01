@@ -12,7 +12,7 @@
         android:layout_width="90dp"
         android:layout_height="653dp"
         android:layout_marginTop="40dp"
-        android:layout_marginLeft="40dp"
+        android:layout_marginStart="40dp"
         android:background="@color/rectangle">
 
     </View>
@@ -22,7 +22,7 @@
         android:layout_width="90dp"
         android:layout_height="653dp"
         android:layout_marginTop="40dp"
-        android:layout_marginLeft="150dp"
+        android:layout_marginStart="150dp"
         android:background="@color/rectangle">
 
     </View>
@@ -32,7 +32,7 @@
         android:layout_width="90dp"
         android:layout_height="653dp"
         android:layout_marginTop="40dp"
-        android:layout_marginLeft="260dp"
+        android:layout_marginStart="260dp"
         android:background="@color/rectangle">
 
     </View>
