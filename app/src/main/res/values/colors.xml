@@ -4,4 +4,10 @@
     <color name="white">#FFFFFFFF</color>
     <color name="purple1">#BA67C8</color>
     <color name="rectangle">#4F1A57</color>
+    <color name="create_account">#1F41BB</color>
+    <color name="mail_color">#626262</color>
+    <color name="mail_bg">#CEE8FB</color>
+    <color name="stroke">#1F41BB</color>
+    <color name="button1">#1F41BB</color>
+    <color name="google">#ECECEC</color>
 </resources>
