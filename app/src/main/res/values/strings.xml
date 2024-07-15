@@ -3,7 +3,9 @@
     <string name="create_account">Create Account</string>
     <string name="caa">Create an account so you can explore all the existing jobs</string>
     <string name="email">Email</string>
+    <string name="email2">Email:</string>
     <string name="pass">Password</string>
+    <string name="pass2">Password:</string>
     <string name="passConf">Confirm Password</string>
     <string name="signup">Sign Up</string>
     <string name="haa">Already have an account</string>

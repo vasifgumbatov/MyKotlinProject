@@ -1,5 +1,6 @@
 package com.vasifgumbatov.kotlin
 
+import android.annotation.SuppressLint
 import android.content.Intent
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
@@ -13,15 +14,17 @@ class FacebookActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_facebook)
 
+       buttonFacebookViews()
+    }
+    @SuppressLint("SuspiciousIndentation")
+    private fun buttonFacebookBack() {
+    val intent = Intent(this, MainActivity::class.java)
+        startActivity(intent)
+    }
+    private fun buttonFacebookViews(){
         val buttonFacebook = findViewById<MaterialButton>(R.id.facebook_back_button)
         buttonFacebook.setOnClickListener {
             buttonFacebookBack()
         }
     }
-    private fun buttonFacebookBack() {
-    val intent = Intent(this, MainActivity::class.java)
-        startActivity(intent)
-    }
-
-
 }

@@ -13,14 +13,15 @@ class AppleActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_apple)
 
+        buttonAppleViews()
+    }
+    private fun buttonAppleBack() {
+        finish()
+    }
+    private fun buttonAppleViews(){
         val buttonApple = findViewById<MaterialButton>(R.id.apple_back_button)
         buttonApple.setOnClickListener {
             buttonAppleBack()
         }
     }
-    private fun buttonAppleBack() {
-        val intent = Intent(this, MainActivity::class.java)
-        startActivity(intent)
-    }
-
 }
